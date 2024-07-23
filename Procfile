@@ -1,4 +1,4 @@
-web: gunicorn tracingllm.py:app
+web: python tracingllm.py
 
 # Uncomment this `release` process if you are using a database, so that Django's model
 
